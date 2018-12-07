@@ -44,7 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GreaterOrEqFifteenValidation.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="LeastAlphabeticalValidation.cs" />
+    <Compile Include="NumberContainsValidation.cs" />
+    <Compile Include="PasswordCheckerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlRepository.cs" />
+    <Compile Include="LessThanSevenValidation.cs" />
+    <Compile Include="IValidation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
